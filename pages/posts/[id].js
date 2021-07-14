@@ -24,7 +24,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        {postData.title}
+        <title>{postData.title}</title>
       </Head>
       <br />
       {postData.id}
